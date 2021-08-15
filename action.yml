@@ -1,0 +1,17 @@
+
+name: 'Create CSS assets from Figma'
+description: 'Produces a set of CSS assets from the Figma plugin tokens file'
+inputs:
+  tokens-json:
+    description: 'String of JSON representing the Figma tokens'
+    required: true
+  results-dir:
+    description: 'Location to place the results'
+    required: true
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.tokens-json }}
+    - ${{ inputs.results-dir }}    
