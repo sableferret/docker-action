@@ -1,10 +1,6 @@
-import StyleDictionary from 'style-dictionary';
+import StyleDictionary, { Config } from 'style-dictionary';
 
-import { AssetType } from './types';
-import { build } from './config';
-
-const transformTokens = (buildDir: string, types: AssetType[]) => {
-  const config = build(buildDir, types);
+const transformTokens = (config: Config) => {
 
   StyleDictionary.registerTransform({
     name: 'size/px',
@@ -30,7 +26,7 @@ const transformTokens = (buildDir: string, types: AssetType[]) => {
 
   StyleDictionary.registerTransformGroup({
     name: 'custom/css',
-    transforms: StyleDictionary.transformGroup['css'].transforms.concat([
+    transforms: (StyleDictionary.transformGroup['css'].transforms || []).concat([
       'size/px',
       'size/percent',
     ]),
@@ -38,7 +34,7 @@ const transformTokens = (buildDir: string, types: AssetType[]) => {
 
   StyleDictionary.registerTransformGroup({
     name: 'custom/less',
-    transforms: StyleDictionary.transformGroup['less'].transforms.concat([
+    transforms: (StyleDictionary.transformGroup['less'].transforms || []).concat([
       'size/px',
       'size/percent',
     ]),
@@ -46,13 +42,15 @@ const transformTokens = (buildDir: string, types: AssetType[]) => {
 
   StyleDictionary.registerTransformGroup({
     name: 'custom/scss',
-    transforms: StyleDictionary.transformGroup['less'].transforms.concat([
+    transforms: (StyleDictionary.transformGroup['less'].transforms || []).concat([
       'size/px',
       'size/percent',
     ]),
   });
 
   const StyleDictionaryExtended = StyleDictionary.extend(config);
+
+  // const StyleDictionaryExtended = StyleDictionary.extend('mock/config.json');
 
   StyleDictionaryExtended.buildAllPlatforms();
 };

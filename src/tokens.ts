@@ -1,17 +1,16 @@
 import fs from 'fs';
+import path from 'path';
 
-const writeFile = (path: string, json: string): void => {
+const writeFile = (dir: string, json: string): void => {
 
-    let fileContent = JSON.stringify(json);
+    if (!fs.existsSync(dir)){
+        fs.mkdirSync(dir, { recursive: true });
+    }
 
-    fileContent = JSON.parse(fileContent)
+    const tokensFile = path.join(dir, 'tokens.json');
 
-    fs.writeFile(path, fileContent, function (error) {
-
-        if (error) {
-            throw error
-        }
-    });
+    console.log(`Attempt to write tokens file to ${tokensFile}`);
+    fs.writeFileSync(tokensFile, json);
 };
 
 export {

@@ -1,19 +1,16 @@
-import { AssetType } from 'types';
-import { writeFile } from './tokens';
-import { transformTokens } from './transform-tokens';
+import { execute } from './engine';
 
-// TODO: Error checking
 var callerArgs = process.argv.slice(2);
+if (callerArgs.length < 2) {
+    throw new Error('Insufficient arguments');
+}
 
-console.log('Getting calling context');
 const tokensJSON = callerArgs[0];
-const buildDirectory = callerArgs[1];
-const assetTypes = callerArgs[2];
+const types = callerArgs[1];
 
 const tokensDirectory = 'tokens';
+const buildDirectory = '/data';
 
-console.log('Writing tokens JSON to local file');
-writeFile(tokensDirectory, tokensJSON);
+execute(tokensJSON, types, tokensDirectory, buildDirectory);
 
-console.log('Transforming tokens to CSS-type assets');
-transformTokens(buildDirectory, assetTypes.split(',') as AssetType[]);
+

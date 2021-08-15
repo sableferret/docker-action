@@ -14,5 +14,3 @@ COPY . .
 RUN npm run build
 
 ENTRYPOINT ["node", "dist/index"]
-
-# CMD ["npm", "start"]

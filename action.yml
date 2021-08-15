@@ -5,13 +5,15 @@ inputs:
   tokens-json:
     description: 'String of JSON representing the Figma tokens'
     required: true
-  results-dir:
-    description: 'Location to place the results'
+  token-types:
+    description: 'Comma-separated set of css, less, sccs, ios'
     required: true
 
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  args:
+  volumes:
+    - ${{ inputs.results-dir }:/data
+  args: 
     - ${{ inputs.tokens-json }}
-    - ${{ inputs.results-dir }}    
+    - ${{ inputs.token-types }}    

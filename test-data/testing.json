@@ -1,0 +1,825 @@
+{
+    "sizes": {
+        "px": {
+            "4": {
+                "category": "size",
+                "exportKey": "size",
+                "value": 4,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "8": {
+                "category": "size",
+                "exportKey": "size",
+                "value": 8,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "16": {
+                "category": "size",
+                "exportKey": "size",
+                "value": 16,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "24": {
+                "category": "size",
+                "exportKey": "size",
+                "value": 24,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "32": {
+                "category": "size",
+                "exportKey": "size",
+                "value": 32,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "48": {
+                "category": "size",
+                "exportKey": "size",
+                "value": 48,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "64": {
+                "category": "size",
+                "exportKey": "size",
+                "value": 56,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "72": {
+                "category": "size",
+                "exportKey": "size",
+                "value": 64,
+                "type": "number",
+                "unit": "pixel"
+            }
+        },
+        "md": {
+            "category": "size",
+            "exportKey": "size",
+            "value": 32,
+            "type": "number",
+            "unit": "pixel"
+        },
+        "control": {
+            "md": {
+                "category": "size",
+                "exportKey": "size",
+                "value": 32,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "sm": {
+                "category": "size",
+                "exportKey": "size",
+                "value": 24,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "lg": {
+                "category": "size",
+                "exportKey": "size",
+                "value": 48,
+                "type": "number",
+                "unit": "pixel"
+            }
+        },
+        "lg": {
+            "category": "size",
+            "exportKey": "size",
+            "value": 48,
+            "type": "number",
+            "unit": "pixel"
+        },
+        "sm": {
+            "category": "size",
+            "exportKey": "size",
+            "value": 16,
+            "type": "number",
+            "unit": "pixel"
+        }
+    },
+    "spacing": {
+        "4": {
+            "category": "spacing",
+            "exportKey": "spacing",
+            "top": {
+                "value": 4,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "right": {
+                "value": 4,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "bottom": {
+                "value": 4,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "left": {
+                "value": 4,
+                "type": "number",
+                "unit": "pixel"
+            }
+        },
+        "8": {
+            "category": "spacing",
+            "exportKey": "spacing",
+            "top": {
+                "value": 8,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "right": {
+                "value": 8,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "bottom": {
+                "value": 8,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "left": {
+                "value": 8,
+                "type": "number",
+                "unit": "pixel"
+            }
+        },
+        "16": {
+            "category": "spacing",
+            "exportKey": "spacing",
+            "top": {
+                "value": 16,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "right": {
+                "value": 16,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "bottom": {
+                "value": 16,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "left": {
+                "value": 16,
+                "type": "number",
+                "unit": "pixel"
+            }
+        },
+        "32": {
+            "category": "spacing",
+            "exportKey": "spacing",
+            "top": {
+                "value": 32,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "right": {
+                "value": 32,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "bottom": {
+                "value": 32,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "left": {
+                "value": 32,
+                "type": "number",
+                "unit": "pixel"
+            }
+        },
+        "m": {
+            "category": "spacing",
+            "exportKey": "spacing",
+            "top": {
+                "value": 16,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "right": {
+                "value": 16,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "bottom": {
+                "value": 16,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "left": {
+                "value": 16,
+                "type": "number",
+                "unit": "pixel"
+            }
+        },
+        "s": {
+            "category": "spacing",
+            "exportKey": "spacing",
+            "top": {
+                "value": 8,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "right": {
+                "value": 8,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "bottom": {
+                "value": 8,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "left": {
+                "value": 8,
+                "type": "number",
+                "unit": "pixel"
+            }
+        },
+        "xs": {
+            "category": "spacing",
+            "exportKey": "spacing",
+            "top": {
+                "value": 4,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "right": {
+                "value": 4,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "bottom": {
+                "value": 4,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "left": {
+                "value": 4,
+                "type": "number",
+                "unit": "pixel"
+            }
+        },
+        "button-lg": {
+            "category": "spacing",
+            "exportKey": "spacing",
+            "top": {
+                "value": 14,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "right": {
+                "value": 16,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "bottom": {
+                "value": 15,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "left": {
+                "value": 16,
+                "type": "number",
+                "unit": "pixel"
+            }
+        },
+        "l": {
+            "category": "spacing",
+            "exportKey": "spacing",
+            "top": {
+                "value": 32,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "right": {
+                "value": 32,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "bottom": {
+                "value": 32,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "left": {
+                "value": 32,
+                "type": "number",
+                "unit": "pixel"
+            }
+        }
+    },
+    "radius": {
+        "sm": {
+            "category": "radius",
+            "exportKey": "radius",
+            "radius": {
+                "value": 4,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "radiusType": {
+                "value": "single",
+                "type": "string"
+            },
+            "radii": {
+                "topLeft": {
+                    "value": 4,
+                    "type": "number",
+                    "unit": "pixel"
+                },
+                "topRight": {
+                    "value": 4,
+                    "type": "number",
+                    "unit": "pixel"
+                },
+                "bottomRight": {
+                    "value": 4,
+                    "type": "number",
+                    "unit": "pixel"
+                },
+                "bottomLeft": {
+                    "value": 4,
+                    "type": "number",
+                    "unit": "pixel"
+                }
+            },
+            "smoothing": {
+                "value": 0,
+                "type": "number"
+            }
+        },
+        "xs": {
+            "category": "radius",
+            "exportKey": "radius",
+            "radius": {
+                "value": 2,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "radiusType": {
+                "value": "single",
+                "type": "string"
+            },
+            "radii": {
+                "topLeft": {
+                    "value": 2,
+                    "type": "number",
+                    "unit": "pixel"
+                },
+                "topRight": {
+                    "value": 2,
+                    "type": "number",
+                    "unit": "pixel"
+                },
+                "bottomRight": {
+                    "value": 2,
+                    "type": "number",
+                    "unit": "pixel"
+                },
+                "bottomLeft": {
+                    "value": 2,
+                    "type": "number",
+                    "unit": "pixel"
+                }
+            },
+            "smoothing": {
+                "value": 0,
+                "type": "number"
+            }
+        },
+        "md": {
+            "category": "radius",
+            "exportKey": "radius",
+            "radius": {
+                "value": 8,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "radiusType": {
+                "value": "single",
+                "type": "string"
+            },
+            "radii": {
+                "topLeft": {
+                    "value": 8,
+                    "type": "number",
+                    "unit": "pixel"
+                },
+                "topRight": {
+                    "value": 8,
+                    "type": "number",
+                    "unit": "pixel"
+                },
+                "bottomRight": {
+                    "value": 8,
+                    "type": "number",
+                    "unit": "pixel"
+                },
+                "bottomLeft": {
+                    "value": 8,
+                    "type": "number",
+                    "unit": "pixel"
+                }
+            },
+            "smoothing": {
+                "value": 0,
+                "type": "number"
+            }
+        },
+        "lg": {
+            "category": "radius",
+            "exportKey": "radius",
+            "radius": {
+                "value": 16,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "radiusType": {
+                "value": "single",
+                "type": "string"
+            },
+            "radii": {
+                "topLeft": {
+                    "value": 16,
+                    "type": "number",
+                    "unit": "pixel"
+                },
+                "topRight": {
+                    "value": 16,
+                    "type": "number",
+                    "unit": "pixel"
+                },
+                "bottomRight": {
+                    "value": 16,
+                    "type": "number",
+                    "unit": "pixel"
+                },
+                "bottomLeft": {
+                    "value": 16,
+                    "type": "number",
+                    "unit": "pixel"
+                }
+            },
+            "smoothing": {
+                "value": 0,
+                "type": "number"
+            }
+        }
+    },
+    "color": {
+        "color1": {
+            "category": "color",
+            "exportKey": "color",
+            "value": "rgba(86, 0, 225, 1)",
+            "type": "color"
+        },
+        "color1 50%": {
+            "category": "color",
+            "exportKey": "color",
+            "value": "rgba(86, 0, 225, 0.5)",
+            "type": "color"
+        },
+        "fieldset background": {
+            "category": "color",
+            "exportKey": "color",
+            "value": "rgba(86, 0, 225, 0.2)",
+            "type": "color"
+        },
+        "gray 100": {
+            "category": "color",
+            "exportKey": "color",
+            "value": "rgba(45, 52, 53, 1)",
+            "type": "color"
+        },
+        "gray 080": {
+            "category": "color",
+            "exportKey": "color",
+            "value": "rgba(99, 110, 114, 1)",
+            "type": "color"
+        },
+        "gray 060": {
+            "category": "color",
+            "exportKey": "color",
+            "value": "rgba(179, 190, 196, 1)",
+            "type": "color"
+        },
+        "gray 040": {
+            "category": "color",
+            "exportKey": "color",
+            "value": "rgba(223, 230, 233, 1)",
+            "type": "color"
+        },
+        "gray 020": {
+            "category": "color",
+            "exportKey": "color",
+            "value": "rgba(245, 247, 248, 1)",
+            "type": "color"
+        },
+        "gray 000": {
+            "category": "color",
+            "exportKey": "color",
+            "value": "rgba(255, 255, 255, 1)",
+            "type": "color"
+        }
+    },
+    "font": {
+        "control-label": {
+            "category": "font",
+            "exportKey": "font",
+            "fontSize": {
+                "value": 13,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "textDecoration": {
+                "value": "none",
+                "type": "string"
+            },
+            "fontFamily": {
+                "value": "Roboto",
+                "type": "string"
+            },
+            "fontWeight": {
+                "value": 400,
+                "type": "number"
+            },
+            "fontStyle": {
+                "value": "normal",
+                "type": "string"
+            },
+            "fontStretch": {
+                "value": "normal",
+                "type": "string"
+            },
+            "_fontStyleOld": {
+                "value": "Regular",
+                "type": "string"
+            },
+            "letterSpacing": {
+                "value": 0,
+                "type": "number",
+                "unit": "percent"
+            },
+            "lineHeight": {
+                "value": "normal",
+                "type": "string",
+                "unit": "auto"
+            },
+            "paragraphIndent": {
+                "value": 0,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "paragraphSpacing": {
+                "value": 0,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "textCase": {
+                "value": "none",
+                "type": "string"
+            }
+        },
+        "control-value": {
+            "category": "font",
+            "exportKey": "font",
+            "fontSize": {
+                "value": 16,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "textDecoration": {
+                "value": "none",
+                "type": "string"
+            },
+            "fontFamily": {
+                "value": "Roboto",
+                "type": "string"
+            },
+            "fontWeight": {
+                "value": 400,
+                "type": "number"
+            },
+            "fontStyle": {
+                "value": "normal",
+                "type": "string"
+            },
+            "fontStretch": {
+                "value": "normal",
+                "type": "string"
+            },
+            "_fontStyleOld": {
+                "value": "Regular",
+                "type": "string"
+            },
+            "letterSpacing": {
+                "value": 0,
+                "type": "number",
+                "unit": "percent"
+            },
+            "lineHeight": {
+                "value": "normal",
+                "type": "string",
+                "unit": "auto"
+            },
+            "paragraphIndent": {
+                "value": 0,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "paragraphSpacing": {
+                "value": 0,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "textCase": {
+                "value": "none",
+                "type": "string"
+            }
+        },
+        "h1": {
+            "category": "font",
+            "exportKey": "font",
+            "fontSize": {
+                "value": 36,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "textDecoration": {
+                "value": "none",
+                "type": "string"
+            },
+            "fontFamily": {
+                "value": "Roboto",
+                "type": "string"
+            },
+            "fontWeight": {
+                "value": 900,
+                "type": "number"
+            },
+            "fontStyle": {
+                "value": "normal",
+                "type": "string"
+            },
+            "fontStretch": {
+                "value": "normal",
+                "type": "string"
+            },
+            "_fontStyleOld": {
+                "value": "Black",
+                "type": "string"
+            },
+            "letterSpacing": {
+                "value": 0,
+                "type": "number",
+                "unit": "percent"
+            },
+            "lineHeight": {
+                "value": 48,
+                "type": "number",
+                "unit": "pixels"
+            },
+            "paragraphIndent": {
+                "value": 0,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "paragraphSpacing": {
+                "value": 0,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "textCase": {
+                "value": "none",
+                "type": "string"
+            }
+        },
+        "h2": {
+            "category": "font",
+            "exportKey": "font",
+            "fontSize": {
+                "value": 24,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "textDecoration": {
+                "value": "none",
+                "type": "string"
+            },
+            "fontFamily": {
+                "value": "Roboto",
+                "type": "string"
+            },
+            "fontWeight": {
+                "value": 900,
+                "type": "number"
+            },
+            "fontStyle": {
+                "value": "normal",
+                "type": "string"
+            },
+            "fontStretch": {
+                "value": "normal",
+                "type": "string"
+            },
+            "_fontStyleOld": {
+                "value": "Black",
+                "type": "string"
+            },
+            "letterSpacing": {
+                "value": 0,
+                "type": "number",
+                "unit": "percent"
+            },
+            "lineHeight": {
+                "value": 32,
+                "type": "number",
+                "unit": "pixels"
+            },
+            "paragraphIndent": {
+                "value": 0,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "paragraphSpacing": {
+                "value": 0,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "textCase": {
+                "value": "none",
+                "type": "string"
+            }
+        },
+        "base": {
+            "category": "font",
+            "exportKey": "font",
+            "fontSize": {
+                "value": 16,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "textDecoration": {
+                "value": "none",
+                "type": "string"
+            },
+            "fontFamily": {
+                "value": "Roboto",
+                "type": "string"
+            },
+            "fontWeight": {
+                "value": 400,
+                "type": "number"
+            },
+            "fontStyle": {
+                "value": "normal",
+                "type": "string"
+            },
+            "fontStretch": {
+                "value": "normal",
+                "type": "string"
+            },
+            "_fontStyleOld": {
+                "value": "Regular",
+                "type": "string"
+            },
+            "letterSpacing": {
+                "value": 0,
+                "type": "number",
+                "unit": "percent"
+            },
+            "lineHeight": {
+                "value": "normal",
+                "type": "string",
+                "unit": "auto"
+            },
+            "paragraphIndent": {
+                "value": 0,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "paragraphSpacing": {
+                "value": 0,
+                "type": "number",
+                "unit": "pixel"
+            },
+            "textCase": {
+                "value": "none",
+                "type": "string"
+            }
+        }
+    }
+}
