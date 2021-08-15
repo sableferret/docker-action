@@ -8,6 +8,9 @@ inputs:
   token-types:
     description: 'Comma-separated set of css, less, sccs, ios'
     required: true
+  results-dir:
+    description: 'Host location for generated assets'
+    required: true  
 
 runs:
   using: 'docker'
