@@ -14,8 +14,4 @@ inputs:
 
 runs:
   using: 'node12'
-  main: 'dist/index.js'
-  args: 
-    - ${{ inputs.tokens-json }}
-    - ${{ inputs.token-types }}
-    - ${{ inputs.results-dir }}    
+  main: 'dist/index.js'  

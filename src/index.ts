@@ -1,15 +1,11 @@
+import * as core from '@actions/core';
 import { execute } from './engine';
 
-var callerArgs = process.argv.slice(2);
-if (callerArgs.length < 3) {
-    throw new Error('Insufficient arguments');
-}
-
-const tokensJSON = callerArgs[0];
-const types = callerArgs[1];
+const tokensJSON = core.getInput('tokens-json');
+const types = core.getInput('token-types');
 
 const tokensDirectory = 'jsontokens';
-const buildDirectory = callerArgs[2];
+const buildDirectory = core.getInput('results-dir');
 
 execute(tokensJSON, types, tokensDirectory, buildDirectory);
 
