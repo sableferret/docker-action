@@ -15,8 +15,7 @@ inputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  volumes:
-    - ${{ inputs.results-dir }:/data
+  options: -v ${{ inputs.results-dir }:/data
   args: 
     - ${{ inputs.tokens-json }}
     - ${{ inputs.token-types }}    
