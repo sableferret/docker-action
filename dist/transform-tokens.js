@@ -48,7 +48,6 @@ const transformTokens = (config) => {
         ]),
     });
     const StyleDictionaryExtended = style_dictionary_1.default.extend(config);
-    // const StyleDictionaryExtended = StyleDictionary.extend('mock/config.json');
     StyleDictionaryExtended.buildAllPlatforms();
 };
 exports.transformTokens = transformTokens;

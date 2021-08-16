@@ -11,7 +11,6 @@ const execute = (tokensJSON, types, tokensDirectory, buildDirectory) => {
     tokens_1.writeFile(tokensDirectory, tokensJSON);
     const assetTypes = types.split(',');
     const config = config_1.build(tokensDirectory, buildDirectory, assetTypes);
-    console.log('config', config);
     transform_tokens_1.transformTokens(config);
 };
 exports.execute = execute;

@@ -20,10 +20,11 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const core = __importStar(require("@actions/core"));
+const uuid_1 = require("uuid");
 const engine_1 = require("./engine");
 const tokensJSON = core.getInput('tokens-json');
 const types = core.getInput('token-types');
-const tokensDirectory = 'jsontokens';
+const tokensDirectory = uuid_1.v4();
 const buildDirectory = core.getInput('results-dir');
 engine_1.execute(tokensJSON, types, tokensDirectory, buildDirectory);
 //# sourceMappingURL=index.js.map
