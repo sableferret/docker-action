@@ -50,8 +50,6 @@ const transformTokens = (config: Config) => {
 
   const StyleDictionaryExtended = StyleDictionary.extend(config);
 
-  // const StyleDictionaryExtended = StyleDictionary.extend('mock/config.json');
-
   StyleDictionaryExtended.buildAllPlatforms();
 };
 

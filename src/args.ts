@@ -1,4 +1,4 @@
-import { AssetTypeValues } from "./types";
+import { AssetTypeValues } from './types';
 
 const validateString = (name: string, val: any): void => {
     if (typeof val !== 'string') {

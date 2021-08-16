@@ -1,5 +1,6 @@
 import * as core from '@actions/core';
 import { v4 as uuidv4 } from 'uuid';
+
 import { execute } from './engine';
 
 const tokensJSON = core.getInput('tokens-json');
